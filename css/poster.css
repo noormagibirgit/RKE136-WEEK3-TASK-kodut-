@@ -8,7 +8,7 @@
 
 html {
     font-family: 'Roboto', sans-serif;
-    color: #151515;
+    color: #0e0d0d;
 }
 
 .movie-card {
@@ -59,7 +59,7 @@ html {
 
 .movie-rating {
     display: none;
-    border: 1px solid #151515;
+    border: 1px solid #0f0e0e;
     padding: 0.3rem;
     border-radius: 5px;
 }
@@ -74,7 +74,7 @@ html {
 }
 
 .movie-info-quote {
-    color: #151515a4;
+    color: #161616a4;
     font-style: italic;
     font-size: 1.2rem;
     margin-top: 1rem;
@@ -102,7 +102,7 @@ html {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    background-color: rgb(3, 37, 65);
+    background-color: rgb(14, 6, 39);
     
 }
 
@@ -138,4 +138,48 @@ footer ul li a {
     text-transform: uppercase;
     text-decoration: none;
     color: #979c98;
+}
+
+
+.modal{
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(90, 79, 79, 0.349);
+    z-index: 2;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.modal-content {
+    background-color: rgb(248, 224, 195);
+    margin: 5% auto;
+    padding: 5rem;
+    width: 600px;
+    height: 600px;
+    animation: zoom-in 1s;
+}
+
+@keyframes zoom-in {
+    0% {transform: scale(0) ;}
+    100%{transform: scale(1); }
+ }
+
+.closeBTN{
+    float: right; 
+    cursor: pointer;
+    font-size: 2rem;   
+}
+
+.movie-poster-modal{
+    width: 300px;
+    
+}
+
+.movie-poster {
+    width: 300px;
+    cursor: pointer;
+
 }
