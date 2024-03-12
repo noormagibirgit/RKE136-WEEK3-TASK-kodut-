@@ -13,7 +13,7 @@ html {
 
 .movie-card {
     margin-top: 5rem;
-    height: 800px;
+    height: 600px;
     text-align: center;
 }
 
@@ -117,7 +117,7 @@ html {
 }
 
 footer {
-    margin-top: 27rem;
+    margin-top: 1rem;
     text-align: center;
     color: #686464;
 }
@@ -159,7 +159,7 @@ footer ul li a {
     padding: 5rem;
     width: 600px;
     height: 600px;
-    animation: zoom-in 1s;
+    animation: zoom-in 0.5s;
 }
 
 @keyframes zoom-in {
@@ -179,7 +179,6 @@ footer ul li a {
 }
 
 .movie-poster {
-    width: 300px;
+    width: 200px;
     cursor: pointer;
-
 }
